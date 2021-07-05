@@ -103,7 +103,7 @@ formatter.match({
   "location": "NegativeSearch.iAlreadyAuthorozied()"
 });
 formatter.result({
-  "duration": 3949221600,
+  "duration": 3830812700,
   "status": "passed"
 });
 formatter.match({
@@ -116,7 +116,7 @@ formatter.match({
   "location": "NegativeSearch.iCallAPIToSearchByInputingInvalidPolicyNumber(String)"
 });
 formatter.result({
-  "duration": 2084050300,
+  "duration": 1988152500,
   "status": "passed"
 });
 formatter.match({
@@ -129,7 +129,7 @@ formatter.match({
   "location": "NegativeSearch.systemResponseNoContentWithStatusCode(String)"
 });
 formatter.result({
-  "duration": 1884200,
+  "duration": 2569200,
   "error_message": "java.lang.AssertionError: expected:\u003c204\u003e but was:\u003c404\u003e\r\n\tat org.junit.Assert.fail(Assert.java:88)\r\n\tat org.junit.Assert.failNotEquals(Assert.java:834)\r\n\tat org.junit.Assert.assertEquals(Assert.java:645)\r\n\tat org.junit.Assert.assertEquals(Assert.java:631)\r\n\tat stepDefinitions.NegativeSearch.systemResponseNoContentWithStatusCode(NegativeSearch.java:39)\r\n\tat ✽.Then system response no content with status code \"204\"(resources/Feature/policyEnquery.feature:9)\r\n",
   "status": "failed"
 });
@@ -164,4 +164,17 @@ formatter.step({
 });
 formatter.match({
   "location": "NegativeSearch.iAlreadyAuthorozied()"
+});
+formatter.result({
+  "duration": 358266300,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "%2816548240%",
+      "offset": 56
+    }
+  ],
+  "location": "NegativeSearch.iCallAPIToSearchByInputingInvalidPolicyNumber(String)"
 });
